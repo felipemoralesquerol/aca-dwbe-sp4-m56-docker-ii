@@ -20,6 +20,6 @@ RUN npm audit fix
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+EXPOSE 3000
 
-CMD [ "node", "server.js" ]
+CMD [ "node", "app.js" ]
