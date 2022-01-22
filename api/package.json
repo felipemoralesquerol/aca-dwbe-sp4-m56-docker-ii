@@ -1,0 +1,25 @@
+{
+  "name": "aca-dwbe-sp4-m56-docker-ii",
+  "version": "1.0.0",
+  "description": "A través de volúmenes podemos adjuntar un espacio de disco para almacenar datos de manera persistente. Con el comando network podrás crear redes para comunicar tus contenedores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipemoralesquerol/aca-dwbe-sp4-m56-docker-ii.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipemoralesquerol/aca-dwbe-sp4-m56-docker-ii/issues"
+  },
+  "homepage": "https://github.com/felipemoralesquerol/aca-dwbe-sp4-m56-docker-ii#readme",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7"
+  }
+}
