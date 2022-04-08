@@ -1,5 +1,5 @@
 # DWBE - Toolbox 56 - Docker II (Continuación: network and volume)
-A través de volúmenes podemos adjuntar un espacio de disco para almacenar datos de manera persistente. Con el comando network podrás crear redes para comunicar tus contenedores
+A través de volúmenes podemos adjuntar un espacio de disco para almacenar datos de manera persistente. Vía el comando network podrás crear redes para comunicar tus contenedores
 
 
 ## Recomendaciones preliminares
