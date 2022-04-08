@@ -26,9 +26,11 @@ Información de referencia "Aprende sobre redes en Docker" de Daniel Segovia en 
     docker network create acamica
 
 ### Vamos a conectar el container redis a la nueva red (seguirá también conectado a la anterior red)
+
     docker network connect acamica redis-container
 
 ### Vamos a desconectar el container redis de la red acamica
+
     docker network disconnect acamica redis-container
 
 ## 2. Volúmenes (prueba de concepto)
@@ -36,6 +38,7 @@ Información de referencia "Aprende sobre redes en Docker" de Daniel Segovia en 
 Información de referencia "Aprende sobre volúmenes en Docker" de Daniel Segovia en https://youtu.be/xXCWRtq2U5o
     
     El comando principal a utilizar es:
+
     docker volume
 
 ### Vamos a listar las redes existentes  
@@ -64,6 +67,7 @@ La salida es de la forma:
             "Scope": "local"
         }
     ]    
+
 ### Ejemplo de un container a partir de una imagen de nginx
 
     docker run -d --name nginx-data -p 8099:80 -v "$(pwd)"/data/:/usr/share/nginx/html nginx
@@ -85,6 +89,7 @@ Información de referencia "Aprende sobre Docker Compose" de Daniel Segovia en h
 ### Vamos a ver un ejemplo (node con express, con acceso a mongodb vía mongose)
 
 ## 1. Instalación y configuración
+
     npm init -y
 
     npm install express
