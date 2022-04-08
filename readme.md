@@ -103,6 +103,7 @@ Información de referencia "Aprende sobre Docker Compose" de Daniel Segovia en h
 
     En caso extremo que se requiera forzar la creación se puede utilizar el comando
     docker-compose up --force-recreate
+    
 
 ### 3. Eliminación de los containers
 
