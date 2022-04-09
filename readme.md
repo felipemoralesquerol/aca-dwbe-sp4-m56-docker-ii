@@ -78,12 +78,12 @@ La salida es de la forma:
     docker run -d -it --name nginx-vol -p 8090:80 --mount source=datos-nginx,target=/usr/share/nginx/html nginx
 
 
-
 ## 3. docker-compose
 
 Información de referencia "Aprende sobre Docker Compose" de Daniel Segovia en https://youtu.be/HdWaQO0G2ZY
     
     Se realiza a través de la configuración de un archivo:
+
     docker-compose.yml
 
 ### Vamos a ver un ejemplo (node con express, con acceso a mongodb vía mongose)
@@ -101,9 +101,9 @@ Información de referencia "Aprende sobre Docker Compose" de Daniel Segovia en h
     Se utiliza el comando:
     docker-compose up
 
-    En caso extremo que se requiera forzar la creación se puede utilizar el comando
+    En el caso extremo que se requiera forzar la creación se puede utilizar el comando:
     docker-compose up --force-recreate
-    
+
 
 ### 3. Eliminación de los containers
 
