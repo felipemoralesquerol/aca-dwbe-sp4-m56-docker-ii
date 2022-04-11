@@ -17,7 +17,7 @@ services:
       - mongo
     build: ./api
     #restart: unless-stopped
-    env_file: ./.env
+    env_file: ./.env.docker
     ports:
       - $NODE_LOCAL_PORT:$NODE_DOCKER_PORT
     environment:
