@@ -111,3 +111,4 @@ Información de referencia "Aprende sobre Docker Compose" de Daniel Segovia en h
     docker-compose down
 
 
+### 4. Incluir dockerización de redis
